@@ -17,21 +17,21 @@ const LoginComponent = () => {
 
         <div className="flex justify-center items-center flex-wrap h-full g-6 text-white">
           <div className="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
-            Imagem
+            CARTEIRA APP - NFT's
           </div>
 
           <div className="md:w-8/12 lg:w-5/12 lg:ml-20">
             <form onSubmit={onSubmit}>
               <div>
-                <label>Usuario: </label>
+                <label>Usuário: </label>
                 <input
-                  className="form-control block w-full px-4 py-2 text-xl font-normal text-white bg-white bg-clip-padding border border-solid border-white rounded transition ease-in-out m-0 focus:text-white focus:bg-white focus:border-secondyColor focus:outline-none"
+                  className="form-control block w-full px-4 py-2 text-xl font-normal text-white bg-secondyColor bg-clip-padding border border-solid border-white rounded transition ease-in-out m-0 focus:text-secondyColor focus:bg-white focus:border-secondyColor focus:outline-none"
                 />
               </div>
               <div>
                 <label>Senha: </label>
                 <input
-                  className="form-control block w-full px-4 py-2 text-xl font-normal text-white bg-white bg-clip-padding border border-solid border-white rounded transition ease-in-out m-0 focus:text-white focus:bg-white focus:border-secondyColor focus:outline-none"
+                  className="form-control block w-full px-4 py-2 text-xl font-normal text-white bg-secondyColor bg-clip-padding border border-solid border-white rounded transition ease-in-out m-0 focus:text-secondyColor focus:bg-white focus:border-secondyColor focus:outline-none"
                 />
               </div>
 
