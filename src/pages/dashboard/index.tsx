@@ -44,7 +44,7 @@ const DashboardPage: React.FC = () => {
       <div className="w-full flex flex-col items-center gap-y-2 py-6 text-white">
         <div className="text-[14px]">Saldo Atual da Carteira</div>
         <div className="text-[40px]">$ 5,689.10</div>
-        <div className="flex">
+        <div className="flex items-center">
           BTC : 0,00335 - 
             <svg
               className="h-6 w-6 pl-1 text-[green]"
@@ -66,6 +66,99 @@ const DashboardPage: React.FC = () => {
             </svg>
             <span className="text-[green] text-[12px]">+8,87%</span>
         </div>
+      </div>
+
+
+      <div className="flex justify-center gap-4">
+        <button
+          type="button"
+          className="
+            flex
+            justify-center
+            items-center
+            rounded-full
+            bg-[#2A3547]
+            p-4
+            text-white
+            leading-normal
+            uppercase
+            shadow-md
+            hover:bg-blue-700
+            hover:shadow-lg
+            focus:bg-blue-700
+            focus:shadow-lg
+            focus:outline-none
+            focus:ring-0
+            active:bg-blue-800
+            active:shadow-lg
+            transition
+            duration-150
+          "
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          className="
+            flex
+            justify-center
+            items-center
+            rounded-full
+            bg-[#2A3547]
+            p-4
+            text-white
+            leading-normal
+            uppercase
+            shadow-md
+            hover:bg-blue-700
+            hover:shadow-lg
+            focus:bg-blue-700
+            focus:shadow-lg
+            focus:outline-none
+            focus:ring-0
+            active:bg-blue-800
+            active:shadow-lg
+            transition
+            duration-150
+          "
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          className="
+            flex
+            justify-center
+            items-center
+            rounded-full
+            bg-[#2A3547]
+            p-4
+            text-white
+            leading-normal
+            uppercase
+            shadow-md
+            hover:bg-blue-700
+            hover:shadow-lg
+            focus:bg-blue-700
+            focus:shadow-lg
+            focus:outline-none
+            focus:ring-0
+            active:bg-blue-800
+            active:shadow-lg
+            transition
+            duration-150
+          "
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-10 h-10">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </button>
       </div>
     </section>
   )
